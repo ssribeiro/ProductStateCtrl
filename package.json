@@ -1,0 +1,27 @@
+{
+  "name": "productstatectrl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ssribeiro",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "typescript": "^2.4.0"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^6.0.0-alpha.0",
+    "babel-core": "^6.25.0",
+    "bluebird": "^3.5.0",
+    "redis": "^2.7.1",
+    "rxjs": "^6.0.0-alpha.0",
+    "tslib": "^1.7.1"
+  }
+}
