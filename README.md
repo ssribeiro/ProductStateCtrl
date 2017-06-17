@@ -1,0 +1,2 @@
+# ProductStateCtrl
+Product State Controller. Generic Controller Layer for making Repository an trusted State from the point of view of other microservices. It acepts "advance" commands to make the state "upstairs" and generate a new state. During the change of state, all requests become paused and the views cant never take an intermediate state. The "Version" of the database grows with the id of the last Event took by the "reducers". This is for use with "ProductRepository" and "EventStone"
